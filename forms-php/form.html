@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handle Form in PHP</title>
+  </head>
+  <body>
+    <form action="./form.php" method="post">
+      <input type="text" name="name" id="name" placeholder="enter name.." />
+      <br />
+      <br />
+      <input type="email" name="email" id="email" placeholder="enter email.." />
+      <br />
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="enter password.."
+      />
+      <br />
+      <br />
+      <input type="checkbox" name="skills[]" value="java" /><span>JAVA</span>
+      <br />
+      <input type="checkbox" name="skills[]" value="html" /><span>HTML</span>
+      <br />
+      <input type="checkbox" name="skills[]" value="css" /><span>CSS</span>
+      <br />
+      <input type="checkbox" name="skills[]" value="js" /><span
+        >JAVASCRIPT</span
+      >
+      <br />
+      <br />
+      <br />
+      <input type="radio" name="gender" id="" value="male" /><span>Male</span>
+      <input type="radio" name="gender" id="" value="female" /><span
+        >Female</span
+      >
+      <br />
+      <br />
+      <select name="city">
+        <option>select city</option>
+        <option value="delhi">Delhi</option>
+        <option value="noida">Noida</option>
+        <option value="gurgaon">Gurgaon</option>
+        <option value="badaun">Badaun</option>
+        <option value="sehshawan">Sehshawan</option>
+      </select>
+      <br />
+      <br />
+      <textarea name="bio"></textarea>
+      <br />
+      <br />
+      <button type="submit">sign up</button>
+    </form>
+  </body>
+</html>

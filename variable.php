@@ -1,0 +1,25 @@
+<?php
+$name = 'Ram Thakur';
+echo $name;
+echo "<br/>";
+echo $name;
+echo "<br/>";
+echo $name;
+echo "<br/>";
+echo $name;
+echo "<br/>";
+echo $name;
+echo "<br/>";
+$num = 10;
+echo $num * 10;
+echo "<br/>";
+echo $num * 10;
+echo "<br/>";
+echo $num * 10;
+echo "<br/>";
+echo $num * 10;
+echo "<br/>";
+echo $num * 10;
+echo "<br/>";
+$any = 1.1;
+echo $any;
